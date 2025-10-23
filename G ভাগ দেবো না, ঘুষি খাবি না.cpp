@@ -11,7 +11,7 @@ void fileio(){
 
 ll grundy(ll x){
     while ((x&(ll)1)==0)x>>=1;
-    return (x-1)>>1;
+    return (x)>>1;
 }
  
 void solve(int t){
